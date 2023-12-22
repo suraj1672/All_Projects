@@ -15,7 +15,7 @@ def get_current_time():
     }
     return response
 
-## Add a new route here
+## my name is suraj
 @app.route('/random')
 def get_random_numbers():
     numbers = [random.randint(0, 5) for _ in range(10)]
